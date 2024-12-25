@@ -15,3 +15,7 @@ struct StolperwoerterApp: App {
         }
     }
 }
+
+#Preview {
+    ContentView()
+}
