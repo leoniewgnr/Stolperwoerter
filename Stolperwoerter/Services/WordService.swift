@@ -16,7 +16,26 @@ class WordService {
         "Duschlampe",
         "Nudelauflauf",
         "Nachteilzug",
-        "Torflaute"
+        "Torflaute",
+        "Urinsekten",
+        "Streikende",
+        "Eistempel",
+        "Wachstube",
+        "Gründung",
+        "Blumentopferde",
+        "Kirschwein",
+        "Barkasse",
+        "Erbrecht",
+        "Kaufladen",
+        "Analphabeten",
+        "Autorennen",
+        "Fankreise",
+        "Altersteilzeit",
+        "Gastraum",
+        "Tangente",
+        "Gelbrand",
+        "Erblasser",
+        "Zwergelsternchen"
     ]
     
     private var currentIndex = 0
