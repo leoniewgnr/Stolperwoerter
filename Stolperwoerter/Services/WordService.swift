@@ -39,14 +39,24 @@ class WordService {
     ]
     
     private var currentIndex = 0
+    private var isCompleted = false
     
-    func getNextWord() -> StolperWord {
+    func getNextWord() -> StolperWord? {
+        if currentIndex >= words.count {
+            isCompleted = true
+            return nil
+        }
         let word = words[currentIndex]
-        currentIndex = (currentIndex + 1) % words.count
+        currentIndex += 1
         return StolperWord(word: word)
     }
     
     func reset() {
         currentIndex = 0
+        isCompleted = false
+    }
+    
+    func isGameCompleted() -> Bool {
+        return isCompleted
     }
 } 
