@@ -17,7 +17,6 @@ class WordService {
         "Nudelauflauf",
         "Nachteilzug",
         "Torflaute",
-        "Urinsekten",
         "Streikende",
         "Eistempel",
         "Wachstube",
@@ -35,7 +34,23 @@ class WordService {
         "Tangente",
         "Gelbrand",
         "Erblasser",
-        "Zwergelsternchen"
+        "Zwergelstern",
+        "Ministereoanlage",
+        "Rotzeder",
+        "Alpenostrand",
+        "Domorgel",
+        "Stockentenerpel",
+        "Festzurrösen",
+        "Urinsekt",
+        "Verandabrüstung",
+        "Tatunbeteiligter",
+        "Polentataler",
+        "Rinderdung",
+        "Gliedersatz",
+        "Enterbender",
+        "Talgrund",
+        "Makuladegeneration",
+        "Stiefenkelchen",
     ]
     
     private var currentIndex = 0
